@@ -129,5 +129,15 @@ dmypy.json
 .pyre/
 
 # Custom dirs
-/data/*
+data/extra_tests/*
+
+data/train/*
+!data/train/.gitkeep
+
+data/validate/*
+!data/validate/.gitkeep
+
+data/test/*
+!data/test/.gitkeep
+
 .idea
